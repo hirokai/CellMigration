@@ -18,7 +18,8 @@
 
 ### Edit `datasets` in `main.js`.
 
-### `python -m SimpleHTTPServer`, and open [http://localhost:8000/](http://localhost:8000/).
+### Run server
+`python -m SimpleHTTPServer`, and open [http://localhost:8000/](http://localhost:8000/).
 
 ## License
 
