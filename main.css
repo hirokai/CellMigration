@@ -1,0 +1,55 @@
+#slider {
+    width: 400px;
+    height: 20px;
+    padding: 0;
+    background: #deb887;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.noglow:focus {
+    outline: none ! important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.bar rect {
+    fill: steelblue;
+    opacity: 0.7;
+    shape-rendering: crispEdges;
+    border: gray 1px solid;
+}
+
+.bar text {
+    fill: #fff;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.rect {
+    fill: pink;
+}
+
+.metric-name {
+    width: 400px;
+}
+
+#img-container {
+    float: left;
+}
+#img-container > img {
+    vertical-align: top;
+    margin-top: 0px;
+}
