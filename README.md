@@ -16,9 +16,9 @@
 * Put in `img` folder.
 * Base file name + '0000', '0001', etc.
 
-3. Edit `datasets` in `main.js`.
+### Edit `datasets` in `main.js`.
 
-4. `python -m SimpleHTTPServer`, and open [http://localhost:8000/](http://localhost:8000/).
+### `python -m SimpleHTTPServer`, and open [http://localhost:8000/](http://localhost:8000/).
 
 ## License
 
